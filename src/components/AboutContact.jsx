@@ -34,7 +34,7 @@ function AboutContact() {
             Atendimento técnico com foco em <span>prevenção e conformidade</span>
           </h2>
           <p className="about-text">
-            A BLS Correa, liderada pelo profissional Bruno Correoa, oferece suporte técnico
+            A BLS Corrêa, liderada pelo profissional Bruno Corrêa, oferece suporte técnico
             especializado para empresas que buscam ambientes de trabalho mais seguros e em
             conformidade com a lei. Atuamos com treinamentos, elaboração de documentos,
             avaliações e programas que reduzem riscos, protegem pessoas e fortalecem a gestão.

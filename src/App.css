@@ -98,7 +98,8 @@ strong {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  min-width: 330px;
+  min-width: 360px;
+  flex: 0 0 auto;
 }
 
 .brand-mark {
@@ -133,7 +134,8 @@ strong {
   justify-self: center;
   display: flex;
   align-items: center;
-  gap: clamp(1.25rem, 2vw, 3rem);
+  gap: clamp(1rem, 1.55vw, 2.2rem);
+  min-width: 0;
   font-size: 1.05rem;
   font-weight: 800;
 }
@@ -141,6 +143,7 @@ strong {
 .desktop-nav a {
   position: relative;
   padding: 0.6rem 0;
+  white-space: nowrap;
 }
 
 .desktop-nav a::after {
@@ -155,12 +158,10 @@ strong {
   transition: transform 0.2s ease;
 }
 
-.desktop-nav a:first-child,
 .desktop-nav a:hover {
   color: var(--orange);
 }
 
-.desktop-nav a:first-child::after,
 .desktop-nav a:hover::after {
   transform: scaleX(1);
 }
@@ -838,7 +839,7 @@ h1 span,
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1180px) {
   .desktop-nav {
     display: none;
   }

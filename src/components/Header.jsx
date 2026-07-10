@@ -3,7 +3,6 @@ import { Menu, Phone, X } from 'lucide-react'
 import Logo from './Logo'
 
 const navItems = [
-  ['Início', '#inicio'],
   ['Sobre nós', '#sobre'],
   ['Serviços', '#servicos'],
   ['Soluções', '#laudos'],

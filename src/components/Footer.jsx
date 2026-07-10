@@ -56,7 +56,7 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="footer-bottom">© 2026 BLS Correa. Todos os direitos reservados.</div>
+      <div className="footer-bottom">© 2026 BLS Corrêa. Todos os direitos reservados.</div>
     </footer>
   )
 }
